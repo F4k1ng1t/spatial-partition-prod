@@ -82,6 +82,10 @@ namespace SpatialPartitionPattern
             return closestSoldier;
         }
 
+        public Soldier FindClosestGuy(Soldier neutralSoldier)
+        {
+
+        }
 
         //A soldier in the grid has moved, so see if we need to update in which grid the soldier is
         public void Move(Soldier soldier, Vector3 oldPos)
